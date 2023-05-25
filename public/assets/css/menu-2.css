@@ -1,0 +1,46 @@
+/* Seção Menu 2 */
+header.cabecalho{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: rgb(56, 56, 56);
+    margin: 0 auto;
+    max-height: 160px;
+}
+
+
+.cabecalho{
+    position: relative;
+}
+
+#logo{
+    grid-column: 1/1;
+    
+}
+
+img#logo{
+    position: relative;
+    bottom: 50px;
+    width: 260px;
+    height: 220px;
+}
+
+
+
+
+ul.itens-lista{
+    display: flex;
+    flex-direction: row;
+    width: 530px;
+    height: 30px;
+}
+
+ul.itens-lista li{
+    margin: 5px;
+    margin-top: 110px;
+
+}
+
+ul.itens-lista a{
+    color: #fff;
+}

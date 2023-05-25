@@ -1,0 +1,4 @@
+Paleta de cores
+#412f13
+#130d0f
+#d2d0ce

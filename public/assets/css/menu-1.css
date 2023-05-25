@@ -1,0 +1,28 @@
+/* Seção menu 1*/
+.menu-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 80px;
+}
+
+span#franquiado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 80, 80);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+#frete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+}

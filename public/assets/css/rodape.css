@@ -1,0 +1,72 @@
+/* Rodape */
+.rodape{
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    height: 200px;
+}
+
+.redes-sociais img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-left: -2px;
+}
+
+.redes-sociais img#rota-66{
+    width: 220px;
+    height: 200px;
+    margin-bottom: -20px;
+}
+
+.redes-sociais img#instagram{
+    width: 52px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.redes-sociais img#whatsapp{
+    width: 30px;
+    height: 30px;
+}
+
+.redes-sociais img#facebook{
+    width: 30px;
+    height: 30px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.icons-redes img{
+    margin-top: -30px;
+}
+
+.contatos span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.informacoes-textos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.informacoes-textos .contatos, #desenvolvedor{
+    margin: 0px 100px 0px 0px;
+}
+
+#desenvolvedor a{
+    text-decoration: none;
+    color: #fff;
+}
