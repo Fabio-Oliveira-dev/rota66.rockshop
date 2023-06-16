@@ -1,0 +1,26 @@
+section.quem-somos{
+    background-color: #d2d0ce;
+}
+
+section.quem-somos article{
+    display: flex;
+    flex-direction: row;
+}
+
+section.quem-somos p{
+    text-align: justify;
+    width: 30%;
+}
+
+section.quem-somos p:hover{
+    color: #412f13;
+}
+
+section.quem-somos p{
+    color: #000;
+}
+
+section.quem-somos img{
+    width: 400px;
+    height: 400px;
+}

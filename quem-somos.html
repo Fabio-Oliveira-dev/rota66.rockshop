@@ -5,11 +5,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rota - 66</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/assets/css/quem-somos.css">
     <link rel="stylesheet" href="./public/assets/css/style.css">
+    <link rel="stylesheet" href="./public/assets/css/menu-1.css">
+    <link rel="stylesheet" href="./public/assets/css/menu-2.css">
+    <link rel="stylesheet" href="./public/assets/css/carrosel-sugestoes.css">
+    <link rel="stylesheet" href="./public/assets/css/vitrineprincipal.css">
+    <link rel="stylesheet" href="./public/assets/css/rodape.css">
+    <link rel="stylesheet" href="./public/assets/css/fonts.css">
+
+    
     <link rel="stylesheet" href="./public/assets/css/reset.css">
+    
+    
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    
+
 </head>
 <body>
-    <!-- Pagina Quem Somos -->
+    <!-- Pagina principal -->
+    <!-- Menu-1 -->
+    <section class="menu-1">
+      <span id="frete">FRETE GRÁTIS acima de R$ 100,00 Reais Para o RJ</span>
+      <a href="#"><span id="franquiado">Seja um Franquiado</span></a>
+    </section>
+
+    <!-- Menu-2-->
+    <header class="cabecalho">
+      
+      <span id="logo">
+        <img id="logo" src="./public/assets/img/rota-66.png" alt="rota-66">
+      </span>
+      
+      <ul class="itens-lista">
+        
+        <li><a href="./index.html">Início</a></li>
+        <li><a href="./quem-somos.html">Quem Somos</a></li>
+        <li>
+          <li><a id="categoria-oculta" href="#">Categorias</a></li>
+          <!-- <ul>
+            <li><a href="#">Animes</a></li>
+            <li><a href="#">Bandas</a></li>
+            <li><a href="#">Personagens</a></li>
+            <li><a href="#">Para o seu negocio</a></li>
+            <li><a href="#">Veiculos</a></li>
+            <li><a href="#">Mosaicos</a></li>
+            <li><a href="#">Diversos</a></li>
+          </ul> -->
+        </li>
+        <li><a href="#">Personalize</a></li>
+        <li><a href="#">Contatos</a></li>
+      </ul>
+      
+    </header>
     
+
+    <!-- Carrosel sugestoes -->
+    <section class="carrosel-1">
+      <span class="carrosel-slide">
+        <!-- Radio buttons-->
+        <input type="radio" name="radio-btn" id="radio-1">
+        <input type="radio" name="radio-btn" id="radio-2">
+        <input type="radio" name="radio-btn" id="radio-3">
+        <input type="radio" name="radio-btn" id="radio-4">
+
+        <!-- Slide img-->
+        <span class="slides-1">
+          <img src="./public/assets/img/banner.jpg" alt="img-1">
+        </span>
+        
+        <span class="slides">
+          <img src="./public/assets/img/img-2.jpg" alt="img-2">
+        </span>
+        
+        <span class="slides">
+          <img src="./public/assets/img/img-3.jpg" alt="img-3">
+        </span>
+        
+        <span class="slides">
+          <img src="./public/assets/img/img-4.jpg" alt="img-4">
+        </span>
+        
+        <!-- Navegação auto -->
+        <span class="navegacao-auto">
+          <span class="auto-btn1"></span>
+          <span class="auto-btn2"></span>
+          <span class="auto-btn3"></span>
+          <span class="auto-btn4"></span>
+        </span>
+      </span>
+
+      <span class="manual-navegacao">
+        <label for="radio-1" class="manual-btn"></label>
+        <label for="radio-2" class="manual-btn"></label>
+        <label for="radio-3" class="manual-btn"></label>
+        <label for="radio-4" class="manual-btn"></label>
+      </span>
+    </section>
+
+
+
+    <section class="quem-somos">
+        <article>
+            <img src="./public/assets/img/rota-66.png" alt="rota-66">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis suscipit amet excepturi illo? Animi similique quam totam! Reiciendis, illum quibusdam quasi perferendis hic, similique ratione officiis minima amet reprehenderit neque! <br>
+            <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum assumenda est perferendis! Id rerum cupiditate expedita quasi labore numquam nesciunt? Distinctio, veniam temporibus numquam non architecto sint dignissimos tenetur animi?
+            </p>
+        </article>
+    </section>
+
+  
+    <!-- Rodapé -->
+    <footer class="rodape">
+      <article class="redes-sociais">
+        <span class="-icon-logo">
+          <img src="./public/assets/img/rota-66.png" alt="rota-66" id="rota-66">
+        </span>
+        <span class="icons-redes">
+          <img src="./public/assets/img/icon-instagram.png" alt="icon-instagram" id="instagram">
+          <img src="./public/assets/img/icon-watsapp.png" alt="icon-watsapp" id="whatsapp">
+          <img src="./public/assets/img/icon-facebook.png" alt="icon-facebook" id="facebook">
+        </span>
+      </article>
+
+      <article class="informacoes-textos">
+        <section class="contatos">
+          <span>WhatsApp - 21 97652-3675</span>
+          <span>E-mail - rota66rockshop@gmail.com</span>
+        </section>
+  
+        <!-- <section class="pagamentos">
+          <span>Formas de Pagamentos
+            <img src="" alt="">
+            <img src="" alt="">
+          </span>
+        </section> -->
+  
+        <span id="desenvolvedor">Desenvolvido por <a href="https://www.instagram.com/fabio.oliveira92/">Fábio Oliveira</a></span>
+      </article>
+    </footer>
+
+    <script src="./public/assets/js/carrosel-1.js"></script>
 </body>
 </html>

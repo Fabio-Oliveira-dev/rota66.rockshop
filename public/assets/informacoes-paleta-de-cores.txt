@@ -1,4 +1,4 @@
 Paleta de cores
-#412f13
-#130d0f
-#d2d0ce
+#412f13 marrom
+#130d0f preto
+#d2d0ce branco
