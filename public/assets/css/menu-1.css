@@ -34,7 +34,7 @@ span#franquiado{
     align-items: center;
     grid-column: 2/3;
     color: #d43a00;
-    -webkit-text-stroke: 1px #fff;
+    /* -webkit-text-stroke: 1px #fff; */
 }
 
 #frete:hover{

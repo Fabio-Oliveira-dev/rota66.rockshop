@@ -1,14 +1,37 @@
+/* Carrosel sugestoes novo */
+* {margin: 0;}
+
+.carrosel-novo{
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.carrosel-novo img{
+    aspect-ratio: 9/16;
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s;
+}
+
+.carrosel-novo img:hover{
+    flex: 1 1 100px;
+    opacity: 1;
+}
+
 /* Carrosel sugestoes */
-.carrosel-1{
+/* .carrosel-1{
     margin: 0 auto;
     width: 100%;
     height: 350px;
     overflow: hidden;
 }
 
-/* .carrosel-1{
+.carrosel-1{
     padding: 10px;
-} */
+}
 
 .carrosel-1 span img{
     display: flex;
@@ -115,4 +138,4 @@
 
 #radio-4:checked ~ .navegacao-auto .auto-btn4{
     background-color: #fff;
-}
+} */
